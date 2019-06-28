@@ -1,0 +1,11 @@
+/**
+ * Device Class Identification:
+ * 
+ * Class Name   :	Replicator
+ * Contact      :	marco.demarco@elettra.trieste.it
+ * Class Family :	Miscellaneous
+ * Platform     :	Unix Like
+ * Bus          :	Not Applicable
+ * Manufacturer :	none
+ * Reference    :	
+ */

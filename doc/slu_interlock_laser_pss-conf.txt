@@ -1,0 +1,26 @@
+#
+# Resource backup , created Wed Sep 13 10:40:33 CEST 2017
+#
+
+#---------------------------------------------------------
+# SERVER replicator-srv/slu_interlock_laser_pss, Replicator device declaration
+#---------------------------------------------------------
+
+replicator-srv/slu_interlock_laser_pss/DEVICE/Replicator: "slu/interlock/laser_pss"
+
+
+# --- slu/interlock/laser_pss properties
+
+slu/interlock/laser_pss->DeviceToReplicate: "tango://srv-tango-srf:20000/slu/interlock/laser_pss"
+
+#---------------------------------------------------------
+# CLASS Replicator properties
+#---------------------------------------------------------
+
+CLASS/Replicator->cvs_location: "/home/cvsadm/cvsroot/fermi/servers/replicator/src/"
+CLASS/Replicator->cvs_tag: release_04
+CLASS/Replicator->Description: "  "
+CLASS/Replicator->doc_url: "http://www.esrf.fr/computing/cs/tango/tango_doc/ds_doc/"
+CLASS/Replicator->InheritedFrom: Device_3Impl
+CLASS/Replicator->ProjectTitle: "Device Replicator"
+
