@@ -1,6 +1,6 @@
 # replicator
 
-# TODO - 2019-06-28
+## TODO - 2019-06-28
  * rewrite from scratch exploiting dynamic attributes/commands
 
 ## TODO - 2017-09-13
